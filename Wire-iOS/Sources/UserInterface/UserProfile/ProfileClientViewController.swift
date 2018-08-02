@@ -53,7 +53,7 @@ import Classy
     
     fileprivate let fingerprintSmallFont = FontSpec(.small, .light).font!
     fileprivate let fingerprintSmallBoldFont = FontSpec(.small, .semibold).font!
-    fileprivate let fingerprintFont = FontSpec(.normal, .none).font!
+    fileprivate let fingerprintFont = FontSpec(.normal, .regular).font!
     fileprivate let fingerprintBoldFont = FontSpec(.normal, .semibold).font!
 
     convenience init(client: UserClient, fromConversation: Bool) {

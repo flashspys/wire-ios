@@ -49,7 +49,7 @@ protocol ParticipantsInvitePeopleViewDelegate: class {
         titleLabel.numberOfLines = 0
         titleLabel.text = "content.system.conversation.invite.title".localized
         titleLabel.textColor = UIColor(scheme: .textForeground)
-        titleLabel.font = FontSpec(.medium, .none).font
+        titleLabel.font = FontSpec(.medium, .regular).font
         inviteButton.setTitle("content.system.conversation.invite.button".localized, for: .normal)
         inviteButton.setTitleColor(UIColor(scheme: .textForeground), for: .normal)
         inviteButton.adjustsTitleWhenHighlighted = true

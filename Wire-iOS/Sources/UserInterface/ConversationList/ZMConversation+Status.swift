@@ -181,7 +181,7 @@ final class ConversationStatusStyle {
                 return
             }
             
-            self.regularStyle = [.font: FontSpec(.medium, .none).font!,
+            self.regularStyle = [.font: FontSpec(.medium, .regular).font!,
                                  .foregroundColor: UIColor(white:1.0, alpha:0.64)]
             self.emphasisStyle = [.font: FontSpec(.medium, .medium).font!,
                                   .foregroundColor: UIColor(white:1.0, alpha:0.64)]

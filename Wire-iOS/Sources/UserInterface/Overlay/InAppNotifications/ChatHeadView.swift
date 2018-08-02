@@ -39,7 +39,7 @@ class ChatHeadView: UIView {
     private let padding: CGFloat = 10
     
     private let titleRegularAttributes: [NSAttributedStringKey: AnyObject] = [
-        .font: FontSpec(.medium, .none).font!.withSize(14),
+        .font: FontSpec(.medium, .regular).font!.withSize(14),
         .foregroundColor: UIColor(scheme: .chatHeadTitleText)
     ]
     private let titleMediumAttributes: [NSAttributedStringKey: AnyObject] = [

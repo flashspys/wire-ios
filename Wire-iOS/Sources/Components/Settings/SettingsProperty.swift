@@ -71,15 +71,6 @@ enum SettingsPropertyValue: Equatable {
     }
 }
 
-func ==(a: SettingsPropertyValue, b: SettingsPropertyValue) -> Bool {
-    switch (a, b) {
-    case (.string(let a), .string(let b)): return a == b
-    case (.number(let a), .number(let b)): return a == b
-    case (.none, .none): return true
-    default: return false
-    }
-}
-
 /**
  *  Generic settings property
  */

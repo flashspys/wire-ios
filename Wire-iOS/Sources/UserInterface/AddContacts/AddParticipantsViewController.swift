@@ -148,7 +148,7 @@ public class AddParticipantsViewController: UIViewController {
 
         emptyResultLabel.text = everyoneHasBeenAddedText
         emptyResultLabel.textColor = UIColor(scheme: .textForeground, variant: self.variant)
-        emptyResultLabel.font = FontSpec(.normal, .none).font!
+        emptyResultLabel.font = FontSpec(.normal, .regular).font!
         
         confirmButton.addTarget(self, action: #selector(searchHeaderViewControllerDidConfirmAction(_:)), for: .touchUpInside)
         

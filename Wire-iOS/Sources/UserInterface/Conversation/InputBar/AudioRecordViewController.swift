@@ -142,12 +142,12 @@ private let zmLog = ZMSLog(tag: "UI")
         [topSeparator, rightSeparator, audioPreviewView, timeLabel, cancelButton, recordingDotView].forEach(bottomContainerView.addSubview)
         
         timeLabel.accessibilityLabel = "audioRecorderTimeLabel"
-        timeLabel.font = FontSpec(.small, .none).font!
+        timeLabel.font = FontSpec(.small, .regular).font!
         timeLabel.textColor = UIColor(scheme: .textForeground)
         
         topTooltipLabel.text = "conversation.input_bar.audio_message.tooltip.pull_send".localized.uppercased()
         topTooltipLabel.accessibilityLabel = "audioRecorderTopTooltipLabel"
-        topTooltipLabel.font = FontSpec(.small, .none).font!
+        topTooltipLabel.font = FontSpec(.small, .regular).font!
         topTooltipLabel.textColor = UIColor(scheme: .textDimmed)
         
         cancelButton.setIcon(.cancel, with: .tiny, for: UIControlState())

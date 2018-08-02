@@ -78,7 +78,7 @@ final class UserNameTakeOverViewController: UIViewController {
         displayNameLabel.text = name
         displayNameLabel.textAlignment = .center
         
-        suggestedHandleLabel.font = FontSpec(.large, .none).font!
+        suggestedHandleLabel.font = FontSpec(.large, .regular).font!
         suggestedHandleLabel.textColor = UIColor(scheme: .textForeground, variant: .dark)
         suggestedHandleLabel.text = "@" + suggestedHandle
         suggestedHandleLabel.textAlignment = .center
@@ -100,7 +100,7 @@ final class UserNameTakeOverViewController: UIViewController {
         subtitleLabel.extendsLinkTouchArea = true
         
         let font = FontSpec(.large, .thin).font!
-        let linkFont = FontSpec(.large, .none).font!
+        let linkFont = FontSpec(.large, .regular).font!
         let color = UIColor(scheme: .textForeground, variant: .dark)
 
         let subtitle = "registration.select_handle.takeover.subtitle".localized
